@@ -1,0 +1,45 @@
+.cp-product{
+    display: flex;
+    height: 7rem;
+    width: 30rem;
+    box-shadow: 0 0 8px hsl(0deg 0% 78% / 21%);
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+    position: relative;
+    background: azure;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.product-text{
+    font-size: 1rem;
+    line-height: 1.3;
+    color: #333;
+    display: flex;
+}
+.product-image{
+    width: 10rem;
+    height: 8rem;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.text-size{
+    font-family: "Nunito",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.product-price{
+    height: 20px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 10px;
+    color: white;
+}
+.description-text{
+    text-align: left;
+    color: grey;
+}
+.cart-button{
+    height: 2rem;
+}

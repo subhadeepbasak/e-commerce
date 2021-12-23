@@ -1,0 +1,84 @@
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-item-ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-direction: column;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+}
+.error{
+    margin-top: 0.3rem;
+    color: #c72d3a;
+    font-size: .9rem;
+    align-self: flex-start;
+}
+.fc-error{
+    border-color:#c72d3a;
+    border-width: .15rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-family: "Nunito",sans-serif;
+    font-weight: 400;
+    color: #c72d3a;
+    width: 500px;
+    align-self: center;
+}
+.no-err{
+    border-color: #00001a;
+    border-width: .15rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-family: "Nunito",sans-serif;
+    font-weight: 400;
+    color: black;
+    width: 500px;
+    align-self: center;
+}
+.lbl-title{
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    margin-bottom: .5rem;
+    color: #00001a;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    align-self: flex-start;
+}
+.form-li{
+    width: 500px;
+    align-self: center;
+    margin-bottom: 2rem;
+}
+input::placeholder{
+    color: #626262;
+    opacity: 1;
+    font-size: .9rem;
+    font-weight: 300;
+}
+input{
+height: 1.5rem;
+border-radius: .3rem;
+}
+#edit-address-btn{
+    height: 2rem;
+    widows: 5rem;
+    background-color: #00001a;
+    border: 1px solid #00001a;
+    border-radius: .2rem;
+    color: azure;
+}
+.btn-between{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
