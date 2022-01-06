@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import {useHistory} from "react-router-dom";
 import {loadCartDataSuccess} from "../store/actions/ProductAction";
 import PageHeader from "../Header/PageHeader";
-import './AddProduct.css';
+import './ProductList.css';
 
 const ProductList = ({productData,cartData,addProductToCart}) =>{
     useEffect(()=>{

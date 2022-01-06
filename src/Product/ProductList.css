@@ -2,11 +2,11 @@
     display: flex;
     height: 7rem;
     width: 30rem;
-    box-shadow: 0 0 8px hsl(0deg 0% 78% / 21%);
+    box-shadow: 0 0 10px 5px rgba(20, 19, 19, 0.21);
     border-radius: 0.8rem;
     padding: 1.5rem;
     position: relative;
-    background: azure;
+    background: #fff;
     margin-left: 10rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
